@@ -32,6 +32,7 @@ square(5)
 random()
 lower()
 
+print("4. checking using lambda function")
 e=int(input("Enter the number:"))
 check_number = lambda e: "Positive" if e > 0 else ("Zero" if e == 0 else "Negative")
 print(check_number(e))
